@@ -1,6 +1,6 @@
-## 300_C_Prob_Solution
-# Here I have added 300 C problem with solution. It almost covers all the important topics of C.
-# Below is the Section-wise 12 topics that contain 25 problems and solution for each topic.
+# 300_C_Prob_Solution
+## Here I have added 300 C problem with solution. It almost covers all the important topics of C.
+## Below is the Section-wise 12 topics that contain 25 problems and solution for each topic.
 
 1. Strings 
 2. Arrays 
