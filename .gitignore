@@ -1,1 +1,5 @@
-// Placeholder file
+*.exe
+*.o
+*.out
+*.elf
+*.bin
