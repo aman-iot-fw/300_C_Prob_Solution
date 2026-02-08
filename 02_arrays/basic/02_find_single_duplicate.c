@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 // Function to find the duplicate number (assumes array of size n+1 with values 1 to n, exactly one duplicate)
 int findDuplicate(int arr[], int size) {
