@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
+//String pointer
 char *str = "1234";
 
 int main(){
