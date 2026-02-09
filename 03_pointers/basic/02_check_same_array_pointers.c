@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>  // For bool, true, false
 
-// Function to check if two pointers point to elements in the same array
 // Requires the base pointer and size for safe bounds checking (standard C has no way to do this without bounds info)
 bool areInSameArray(int* p1, int* p2, int* base, size_t size) {
     int* end = base + size;  // One past the last element (standard array bounds)
