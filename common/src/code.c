@@ -44,8 +44,6 @@ int countSetBits(uint8_t reg){
 
 int main(){
     char *a = "HelloWorld";
-
     printf("%d",myStrLen(a));
-    
     return 0;
 }
