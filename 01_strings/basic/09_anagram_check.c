@@ -35,5 +35,4 @@ int main(){
 
    printf("Strings are anagram");
    return 1;
-   
 }
