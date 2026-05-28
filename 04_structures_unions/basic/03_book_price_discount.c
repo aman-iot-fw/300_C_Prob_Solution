@@ -32,8 +32,8 @@ void initBookDb(bookDetail_t bd[]){
     char *str2 = malloc(sizeof(6));
     
     for(int i = 0; i < BOOK_DATABASE_SIZE; i++){
-        snprintf(str1, 6, "Book%d'\0'", i);
-        snprintf(str2, 6, "Aman%d'\0'", i);
+        snprintf(str1, 7, "Book%d", i);
+        snprintf(str2, 7, "Aman%d", i);
         bd[i].title = strdup(str1);
         bd[i].author = strdup(str2);
         bd[i].price = i+100;
