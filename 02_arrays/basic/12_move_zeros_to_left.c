@@ -1,1 +1,1 @@
-// TODO
+//move zeros to left
