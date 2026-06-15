@@ -7,10 +7,12 @@ int countElement(int *arr){
   int *base = arr;
   int elementSize = (uint8_t)(base + 1) - (uint8_t)base;
   printf("%d\n", elementSize);
-  return 0;
+  return elementSize;
 }
 
 int main(){
-  countElement(arr);
+  
+  
+  printf("Element Count: %d", sizeof(arr)/countElement(arr));
   return 0;
 }
